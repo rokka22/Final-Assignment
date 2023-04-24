@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Coffee Shop</title>
+  <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="img/logo.jpg" alt="Coffee Shop Logo"></a>
+    <p> Coffee Shop </p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="location.html">Locations</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div class="contact-info">
+        <h3>Visit Us</h3>
+        <p>123 Main St.</p>
+        <p>City, State ZIP</p>
+        <h3>Call Us</h3>
+        <p>555-555-5555</p>
+        <h3>Email Us</h3>
+        <p>info@coffeeshop.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Coffee Shop</p>
+  </footer>
+
+</body>
+</html>
